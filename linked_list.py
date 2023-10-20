@@ -135,12 +135,13 @@ class LinkedList:
         if index == 0:
             return self.head
 
-        current = self.head
-        position = index
+        else:
+            current = self.head
+            position = index
 
-        while position > 0:
-            current = current.next_node
-            position -= 1
+            while position < index:
+                current = current.next_node
+                position += 1
 
         return current
     
