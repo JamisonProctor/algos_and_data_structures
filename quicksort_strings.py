@@ -2,7 +2,7 @@ import sys
 from load import load_strings
 
 names = load_strings(sys.argv[1])
-names = [name.strip() for name in names]
+
 
 def quicksort(values):
     if len(values) <= 1:
