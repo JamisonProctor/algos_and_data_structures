@@ -10,6 +10,6 @@ def load_strings(filename):
     names = []
     with open(filename) as f:
         for line in f:
-            names.append(str(line))
+            names.append(line.strip())
 
     return names
