@@ -6,7 +6,7 @@ def load_numbers(filename):
 
     return numbers
 
-def load_names(filename):
+def load_strings(filename):
     names = []
     with open(filename) as f:
         for line in f:
