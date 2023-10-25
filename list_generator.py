@@ -1,5 +1,5 @@
 import random
 
-with open("numbers/1000000.txt", "w") as f:
-    for i in range(1000000):
-        f.write(str(random.randint(0, 1000)) + "\n")
+with open("numbers/10000.txt", "w") as f:
+    for i in range(10000):
+        f.write(str(random.randint(0, 10000)) + "\n")
