@@ -12,6 +12,7 @@ def selection_sort(values):
     #    print("%-25s %-25s" % (values, sorted_list))
     return sorted_list
 
+
 def index_of_min(values):
     min_index = 0
     for i in range(1, len(values)):
