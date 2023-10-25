@@ -5,3 +5,11 @@ def load_numbers(filename):
             numbers.append(int(line))
 
     return numbers
+
+def load_names(filename):
+    names = []
+    with open(filename) as f:
+        for line in f:
+            names.append(str(line))
+
+    return names
