@@ -37,7 +37,7 @@ last_names = [
 ]
 
 random_names = [f"{random.choice(first_names)} {random.choice(last_names)}" for _ in range(10000)]
-random_names_str = "\n".join(random_names)
+random_names_str = "".join(random_names)
 
 # Convert the list to a single string
 with open("names/unsorted.txt", "w") as f:
